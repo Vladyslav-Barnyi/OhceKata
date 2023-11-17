@@ -1,0 +1,14 @@
+C:\Users\vbarnyi\RiderProjects\Ohce\Ohce\bin\Debug\net8.0\Ohce.exe
+C:\Users\vbarnyi\RiderProjects\Ohce\Ohce\bin\Debug\net8.0\Ohce.deps.json
+C:\Users\vbarnyi\RiderProjects\Ohce\Ohce\bin\Debug\net8.0\Ohce.runtimeconfig.json
+C:\Users\vbarnyi\RiderProjects\Ohce\Ohce\bin\Debug\net8.0\Ohce.dll
+C:\Users\vbarnyi\RiderProjects\Ohce\Ohce\bin\Debug\net8.0\Ohce.pdb
+C:\Users\vbarnyi\RiderProjects\Ohce\Ohce\obj\Debug\net8.0\Ohce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vbarnyi\RiderProjects\Ohce\Ohce\obj\Debug\net8.0\Ohce.AssemblyInfoInputs.cache
+C:\Users\vbarnyi\RiderProjects\Ohce\Ohce\obj\Debug\net8.0\Ohce.AssemblyInfo.cs
+C:\Users\vbarnyi\RiderProjects\Ohce\Ohce\obj\Debug\net8.0\Ohce.csproj.CoreCompileInputs.cache
+C:\Users\vbarnyi\RiderProjects\Ohce\Ohce\obj\Debug\net8.0\Ohce.dll
+C:\Users\vbarnyi\RiderProjects\Ohce\Ohce\obj\Debug\net8.0\refint\Ohce.dll
+C:\Users\vbarnyi\RiderProjects\Ohce\Ohce\obj\Debug\net8.0\Ohce.pdb
+C:\Users\vbarnyi\RiderProjects\Ohce\Ohce\obj\Debug\net8.0\Ohce.genruntimeconfig.cache
+C:\Users\vbarnyi\RiderProjects\Ohce\Ohce\obj\Debug\net8.0\ref\Ohce.dll
