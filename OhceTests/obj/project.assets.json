@@ -354,22 +354,6 @@
           }
         }
       },
-      "Moq/4.20.69": {
-        "type": "package",
-        "dependencies": {
-          "Castle.Core": "5.1.1"
-        },
-        "compile": {
-          "lib/net6.0/Moq.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Moq.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -2273,27 +2257,6 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
-      ]
-    },
-    "Moq/4.20.69": {
-      "sha512": "8P/oAUOL8ZVyXnzBBcgdhTsOD1kQbAWfOcMI7KDQO3HqQtzB/0WYLdnMa4Jefv8nu/MQYiiG0IuoJdvG0v0Nig==",
-      "type": "package",
-      "path": "moq/4.20.69",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/net462/Moq.dll",
-        "lib/net462/Moq.xml",
-        "lib/net6.0/Moq.dll",
-        "lib/net6.0/Moq.xml",
-        "lib/netstandard2.0/Moq.dll",
-        "lib/netstandard2.0/Moq.xml",
-        "lib/netstandard2.1/Moq.dll",
-        "lib/netstandard2.1/Moq.xml",
-        "moq.4.20.69.nupkg.sha512",
-        "moq.nuspec",
-        "readme.md"
       ]
     },
     "NETStandard.Library/1.6.1": {
@@ -5829,7 +5792,6 @@
     "net8.0": [
       "FluentAssertions >= 7.0.0-alpha.3",
       "Microsoft.NET.Test.Sdk >= 17.6.0",
-      "Moq >= 4.20.69",
       "NSubstitute >= 5.1.0",
       "Ohce >= 1.0.0",
       "coverlet.collector >= 6.0.0",
@@ -5885,10 +5847,6 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.6.0, )"
-          },
-          "Moq": {
-            "target": "Package",
-            "version": "[4.20.69, )"
           },
           "NSubstitute": {
             "target": "Package",

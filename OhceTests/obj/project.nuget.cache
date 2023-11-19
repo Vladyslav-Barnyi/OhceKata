@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KNH4+IWDpeJ/LE1xwH065PWOoSsaqISVv4nh4WhYg2jzKQrKt0jCDsrXN0EiQ+2HWsdGrGSYKJl+5K8zNzWxPA==",
+  "dgSpecHash": "t5R2MB5PHanVFhMbpnQuP9GgMYH5H2Xr+zrks5XqjRI1aXhIsHdOpLr1/WNr1si6t/frnh+8waiYzRFVYF+XlQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\vbarnyi\\RiderProjects\\Ohce\\OhceTests\\OhceTests.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,6 @@
     "C:\\Users\\vbarnyi\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.6.0\\microsoft.testplatform.objectmodel.17.6.0.nupkg.sha512",
     "C:\\Users\\vbarnyi\\.nuget\\packages\\microsoft.testplatform.testhost\\17.6.0\\microsoft.testplatform.testhost.17.6.0.nupkg.sha512",
     "C:\\Users\\vbarnyi\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\vbarnyi\\.nuget\\packages\\moq\\4.20.69\\moq.4.20.69.nupkg.sha512",
     "C:\\Users\\vbarnyi\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\vbarnyi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\vbarnyi\\.nuget\\packages\\nsubstitute\\5.1.0\\nsubstitute.5.1.0.nupkg.sha512",

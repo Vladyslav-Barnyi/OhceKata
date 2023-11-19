@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OhceTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc8574dcffe0423ff447768c88832b08b817e3a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("OhceTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OhceTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

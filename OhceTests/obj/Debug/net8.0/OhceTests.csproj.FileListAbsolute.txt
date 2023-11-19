@@ -21,7 +21,6 @@ C:\Users\vbarnyi\RiderProjects\Ohce\OhceTests\bin\Debug\net8.0\Microsoft.TestPla
 C:\Users\vbarnyi\RiderProjects\Ohce\OhceTests\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll
 C:\Users\vbarnyi\RiderProjects\Ohce\OhceTests\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll
 C:\Users\vbarnyi\RiderProjects\Ohce\OhceTests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll
-C:\Users\vbarnyi\RiderProjects\Ohce\OhceTests\bin\Debug\net8.0\Moq.dll
 C:\Users\vbarnyi\RiderProjects\Ohce\OhceTests\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\vbarnyi\RiderProjects\Ohce\OhceTests\bin\Debug\net8.0\NSubstitute.dll
 C:\Users\vbarnyi\RiderProjects\Ohce\OhceTests\bin\Debug\net8.0\NuGet.Frameworks.dll
@@ -113,3 +112,4 @@ C:\Users\vbarnyi\RiderProjects\Ohce\OhceTests\obj\Debug\net8.0\refint\OhceTests.
 C:\Users\vbarnyi\RiderProjects\Ohce\OhceTests\obj\Debug\net8.0\OhceTests.pdb
 C:\Users\vbarnyi\RiderProjects\Ohce\OhceTests\obj\Debug\net8.0\OhceTests.genruntimeconfig.cache
 C:\Users\vbarnyi\RiderProjects\Ohce\OhceTests\obj\Debug\net8.0\ref\OhceTests.dll
+C:\Users\vbarnyi\RiderProjects\Ohce\OhceTests\obj\Debug\net8.0\OhceTests.sourcelink.json

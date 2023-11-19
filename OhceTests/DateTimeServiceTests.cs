@@ -1,22 +1,21 @@
 using FluentAssertions;
-using Ohce.Services;
+using NSubstitute;
+using Ohce.Services.Interfaces;
 
 namespace OhceTests;
 
 public class DateTimeServiceTests
 {
-    private DateTimeService _dateTimeService;
-
-    public DateTimeServiceTests()
-    {
-        _dateTimeService = new DateTimeService();
-    }
-
+    private IDateTimeService _dateTimeService = Substitute.For<IDateTimeService>();
+    
     [Fact]
     public void Now_ReturnsCurrentDateTime()
     {
         var now = DateTime.Now;
+
+        _dateTimeService.Now.Returns(DateTime.Now);
         var result = _dateTimeService.Now;
+        
         result.Date.Should().Be(now.Date);
     }
 }
