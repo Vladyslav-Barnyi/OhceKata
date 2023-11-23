@@ -1,6 +1,7 @@
 using FluentAssertions;
 using NSubstitute;
 using Ohce;
+using Ohce.Infrastructure.Interface;
 using Ohce.Services.Interfaces;
 
 namespace OhceTests;
@@ -10,7 +11,7 @@ public class OhceTests
     private readonly Program _sut;
     private readonly IGreetingService _greetingService = Substitute.For<IGreetingService>();
     private readonly IReverseEchoingService _reverseEchoingService = Substitute.For<IReverseEchoingService>();
-    private readonly IDateTimeService _dateTimeService = Substitute.For<IDateTimeService>();
+    private readonly IDateTimeWrapper _dateTimeWrapper = Substitute.For<IDateTimeWrapper>();
     private readonly StringWriter _stringWriter;
     private StringReader _stringReader;
 
@@ -18,14 +19,14 @@ public class OhceTests
     {
         _stringWriter = new StringWriter();
         Console.SetOut(_stringWriter);
-        _sut = new Program(_greetingService, _reverseEchoingService, _dateTimeService);
+        _sut = new Program(_greetingService, _reverseEchoingService, _dateTimeWrapper);
     }
 
     [Fact]
     public void Run_PrintsMorningGreeting_WhenMorning()
     {
         var morningTime = new DateTime(2023, 1, 1, 9, 0, 0);
-        _dateTimeService.Now.Returns(morningTime);
+        _dateTimeWrapper.Now.Returns(morningTime);
         _greetingService.GreetUser(Arg.Any<string>(), Arg.Any<DateTime>())
             .Returns("¡Buenos días Vlad!");
 
@@ -42,7 +43,7 @@ public class OhceTests
     public void Run_PrintsAfternoonGreeting_WhenAfternoon()
     {
         var afternoonTime = new DateTime(2023, 1, 1, 15, 0, 0);
-        _dateTimeService.Now.Returns(afternoonTime);
+        _dateTimeWrapper.Now.Returns(afternoonTime);
         _greetingService.GreetUser(Arg.Any<string>(), Arg.Any<DateTime>())
             .Returns("¡Buenas tardes Vlad!");
 
@@ -59,7 +60,7 @@ public class OhceTests
     public void Run_PrintsEveningGreeting_WhenEvening()
     {
         var eveningTime = new DateTime(2023, 1, 1, 22, 0, 0);
-        _dateTimeService.Now.Returns(eveningTime);
+        _dateTimeWrapper.Now.Returns(eveningTime);
         _greetingService.GreetUser(Arg.Any<string>(), Arg.Any<DateTime>())
             .Returns("¡Buenas noches Vlad!");
 

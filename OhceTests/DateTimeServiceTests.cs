@@ -1,21 +1,23 @@
 using FluentAssertions;
 using NSubstitute;
+using Ohce.Infrastructure.Interface;
+using Ohce.Services;
 using Ohce.Services.Interfaces;
 
 namespace OhceTests;
 
 public class DateTimeServiceTests
 {
-    private IDateTimeService _dateTimeService = Substitute.For<IDateTimeService>();
+    private IDateTimeWrapper _dateTimeWrapper = Substitute.For<IDateTimeWrapper>();
     
     [Fact]
-    public void Now_ReturnsCurrentDateTime()
+    public void SubstituteNow_ReturnsCurrentDateTime()
     {
-        var now = DateTime.Now;
+        var now = DateTime.Now.Date;
 
-        _dateTimeService.Now.Returns(DateTime.Now);
-        var result = _dateTimeService.Now;
+        _dateTimeWrapper.Now.Returns(DateTime.Now);
+        var result = _dateTimeWrapper.Now;
         
-        result.Date.Should().Be(now.Date);
+        result.Date.Should().Be(now);
     }
 }

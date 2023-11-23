@@ -4,7 +4,7 @@ namespace Ohce.Services;
 
 public class GreetingService : IGreetingService
 {
-    public virtual string GreetUser(string userName , DateTime time)
+    public string GreetUser(string userName , DateTime time)
     {
         var result = time.Hour switch
         {

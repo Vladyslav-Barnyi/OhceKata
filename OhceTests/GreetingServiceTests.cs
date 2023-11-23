@@ -44,7 +44,7 @@ public class GreetingServiceTests
     {
         var morningTime = new DateTime(2023, 1, 1, 9, 0, 0);
         var sut = Substitute.For<IGreetingService>();
-        sut.GreetUser("Vlad", morningTime).Returns("¡Buenas días Vlad!");
+        sut.GreetUser("Vlad", morningTime).Returns("¡Buenos días Vlad!");
         
         var result = sut.GreetUser("Vlad", morningTime);
         result.Should().Be("¡Buenos días Vlad!");
